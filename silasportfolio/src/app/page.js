@@ -20,7 +20,7 @@ export default function Home() {
     </nav>
     <div className="about">
       <p className="hello">Hello</p>
-      <p className="silas">I'm Silas Okpugie<br /><span>SOFTWARE DEVELOPER</span></p>
+      <p className="silas">I&apos;m Silas Okpugie<br /><span>SOFTWARE DEVELOPER</span></p>
       <p className="experience">Fully proven, located in Lagos, Nigeria</p>
       <p className="experience">BUILDING DIGITAL EXPERIENCE</p>
     </div>
