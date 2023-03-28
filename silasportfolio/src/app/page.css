@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+  }
+  nav img {
+    margin-left: 10%;
+    color: goldenrod;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  li a {
+    display: block;
+  }
+  li a.active {
+    color: goldenrod;
+  }
+  li a:hover {
+    color: goldenrod;
+  }
+  .position {
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+  .about {
+    margin-left: 10%;
+    margin-top: 12%;
+  }
+  .hello {
+    font-size: 40px;
+    color: goldenrod;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 30px;
+  }
+  .silas {
+    font-size: 40px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-bottom: 30px;
+  }
+  span {
+    color: greenyellow;
+    font-size: 30px;
+  }
+  .experience {
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  .button {
+    margin-left: 10%;
+    margin-top: 40px;
+  }
+  .button button {
+    background-color: rgb(123, 223, 103);
+    color: white;
+    width: 200px;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: larger;
+  }
+
+  @media screen and (max-width: 600px) {
+      ul {
+          display: none;
+      }
+  }
