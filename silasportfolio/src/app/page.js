@@ -15,6 +15,7 @@ export default function Home() {
         <li><a>ABOUT</a></li>
         <li><a>CONTACT</a></li>
         <li><a>SKILLS</a></li>
+        <li><a>KNOW MORE</a></li>
       </ul>
       </div>
     </nav>
